@@ -9,7 +9,7 @@ btn.addEventListener("click", (e)=>{
 	let name = document.querySelector("#name").value;
 
 	if(age.length == 0 || name.length == 0){
-		alert("Please enter valid details.")
+		alert("Please enter valid details")
 		return;
 	}
 
